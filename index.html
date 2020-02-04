@@ -1,0 +1,67 @@
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/741e52966a.js"></script>
+    <title>Tip-Calculator</title>
+
+    <link rel="shortcut icon" type="image/jpg"  href="../images/heart.png">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <link  rel="stylesheet" href="css/styles.css">
+    
+</head>
+    <body>
+
+     <div class="container">
+      <div class="tip__box">
+
+       <div class="tip__head">
+        <h3> TIP  CALCULATOR</h3>
+       </div>
+
+       <div class="tip__inputs">
+         <div class="field" id="bill">
+          <h4> How much was your Bill ?</h4>
+           <input for="bill" input="number" placeholder="$$"  >
+         </div>
+         <div class="field" id="tip">
+           <h4> Amount of Tip percentage :</h4>
+           <input type="number" name="city" list="tipvalue">
+             <datalist id="tipvalue">
+               <option value="2">
+               <option value="3">
+             </datalist>
+         </div>
+         <div class="field" id="people">
+            <h4> How many people are sharing the Bill ?</h4>
+            <input for="people" input="number" >
+         </div>
+       </div>
+
+       <div class="result">
+          <div class="button">
+            <button>CALCULATE</button>
+          </div> 
+        <div class="calculate" id="calc">
+          <h4>Tip ($) : </h4>
+          <input for="calc" ></input>
+        </div>
+
+        <div class="eachPay" id="eachPay">
+          <h4>Money each person to pay ($): </h4>
+          <input for="calc" ></input>
+        </div>
+      </div>
+
+      </div>
+     </div>
+
+
+     <script src="js/app.js"></script>
+    </body>
+</html>     
